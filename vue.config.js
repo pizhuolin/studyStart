@@ -32,7 +32,7 @@ module.exports = {
                             }
                         }
                     }
-                },
+                }/*,
                 minimizer: [new UglifyPlugin({
                     uglifyOptions: {
                         compress: {
@@ -42,7 +42,7 @@ module.exports = {
                             pure_funcs: ['console.log'] // 移除console
                         }
                     }
-                })]
+                })]*/
             }
             Object.assign(config, {
                 optimization
